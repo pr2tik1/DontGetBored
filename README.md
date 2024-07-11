@@ -1,6 +1,6 @@
 # DontGetBored App
 
-Welcome to the Immbored App! This application helps in your boredom with a set of challenges.
+Welcome to the DontGetBored App! This application helps in your boredom with a set of challenges.
 
 
 ## Acknowledgments
