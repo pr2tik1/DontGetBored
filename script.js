@@ -3,10 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const taskDisplay = document.getElementById('task-display');
 
     button.addEventListener('click', () => {
-        fetch('/api/random')
+        fetch('https://dummyjson.com/todos')
             .then(response => response.json())
             .then(data => {
-                taskDisplay.textContent = `${data.activity}`;
+                const randomTask = data.todos[Math.floor(Math.random() * data.todos.length)];
+                taskDisplay.textContent = `${randomTask.todo}`;
             })
             .catch(error => {
                 console.error('Error fetching data:', error);

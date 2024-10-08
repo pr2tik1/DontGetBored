@@ -5,4 +5,4 @@ Welcome to the DontGetBored App! This application helps in your boredom with a s
 
 ## Acknowledgments
 
-- Special thanks to [App Brewery](https://www.appbrewery.co/) for providing the Bored-api, which powers the app.
+- Special thanks to [DummyJSON](https://dummyjson.com/docs/todos) for providing the Todo-api, which powers the app.
