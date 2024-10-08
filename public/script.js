@@ -3,14 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const taskDisplay = document.getElementById('task-display');
 
     button.addEventListener('click', () => {
-        fetch('https://bored-api.appbrewery.com/random')
+        fetch('/api/random')
             .then(response => response.json())
             .then(data => {
                 taskDisplay.textContent = `${data.activity}`;
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
-                taskDisplay.textContent = 'Please wait for few seconds and then retry !';
+                taskDisplay.textContent = 'Please wait for a few seconds and then retry!';
             });
     });
 });
