@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
-                taskDisplay.textContent = 'Please wait for a few seconds and then retry!';
+                taskDisplay.textContent = 'Please wait for a few seconds and retry!';
             });
     });
 });
